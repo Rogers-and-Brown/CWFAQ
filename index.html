@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>  
+<body>
+  <div class="background-image"></div>
+  <div class="container">
+
+    <img src="./img/RBCWLogo.png" alt="">
+
+    <h2>Frequently Asked Questions</h2>
+    
+    <div class="accordion">
+      <div class="accordion-item">
+        <a>Why is my password not working?</a>
+        <div class="content">
+          <p>If you've forgotten your password, please reach out to Sysop (Ext. 351 - sysop@rogers-brown.com) and mention if you're trying to log on to the production system or training system. Please note that your password has a pre-determined expiration date as an added security measure. The CargoWise application should alert you when your password is set to expire and allow you to create a new one.</p>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <a>My application is not responding, what should I do?</a>
+        <div class="content">
+          <p>Periodically the CargoWise application can experience a loss of connection which results in an unresponsive program. The quickest way to get around this issue is to press Ctrl + Alt + Delete → Task Manager → Select Remote Desktop Connection → End Task. If you try to log on and you get an error stating that you're already logged in, please wait a few minutes for the servers to refresh and then try again. If this issue persists please let your supervisor know.</p>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <a>Why is my SCAC code not valid?</a>
+        <div class="content">
+          <p>If your SCAC code is invalid, you can query the database. The response from that query will update the database accordingly with an updated code To do this, go to Customs Declarations → Actions → Reference Files Request → Carrier Codes.</p>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <a>I used to get a specific report from the AS/400. Why don't I get that same report on CargoWise?</a>
+        <div class="content">
+          <p>Most reports have been replicated in the CargoWise system. If you still don't see one that you believe you should be recieving, reach out to sysop so they can investigate. Please note that not every report from the 400 is able to be replicated in CW as sysop does not have complete access to the system like the 400.</p>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <a>Why do I not have permissions to do something?</a>
+        <div class="content">
+          <p>If you get a halt stating that you do not have the appropriate permission, please contact your immediate supervisor. They will contact sysop if there needs to be a permissions change.</p>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <a>Where can I find training documents and modules?</a>
+        <div class="content">
+          <p>All documents and training modules are located on WiseTech's website. The quickest way to get there is through the Jump screen in the CargoWise application. Click on Help? → myaccount.cargowise.com</p>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <a>Who can help me troubleshoot a problem with a file?</a>
+        <div class="content">
+          <p>WiseTech's training modules and your team leader should be able to assist you in getting around various halts within the program. However, if they aren't available, a good resource is the CargoWise Team (CargoWiseTeam@rogers-brown.com)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</body>
+</html>
