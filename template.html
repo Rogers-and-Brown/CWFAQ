@@ -1,0 +1,49 @@
+<!-- This is a template for creating a new FAQ item on the page.  This is a temporary solution until a more robust editing method is created -->
+<!-- To create an FAQ, change the text between the <a></a> tags.  This is the title of the FAQ.  The text between the <p></p> tags is the details answering the FAQ -->
+<!-- The <div></div> tags do not need to be changed and the classes named accordion-item and content are essential to the FAQ pages working and must not be changed -->
+
+<!-- ANY QUESTIONS, DO NOT HESITATE TO ASK ME (JORDAN). I UNDERSTAND THIS IS UNORTHODOX BUT IT ALLOWS ALL OF SYSOP TO EDIT THIS PROGRAM WITHOUT IN DEPTH HTML/JAVASCRIPT KNOWLEDGE -->
+
+
+<div class="accordion-item">
+  <a>***FAQ TITLE HERE***</a>
+  <div class="content">
+    <p>***FAQ ANSWER HERE***</p>
+  </div>
+</div>
+
+
+<!-- 
+Add the content that you want and then copy the entire block of code. Find the last <div class="accordion-item"> in the stack.  
+This is the latest FAQ.  Go down 5 lines and you should be at the SECOND </div>
+Place your cursor at the end of the closing angle bracket ( > ) behind the word div and press enter to create a new line.  
+Paste the entire template on this new line.  Make sure that the start of the <div class="accordion-item"> lines up with the </div> on the previous line. 
+Just use the space/backspace keys to line them up. Right and wrong examples are below.-->
+
+<!-- THIS IS INCORRECT -->
+    <div class="accordion-item">
+      <a>***FAQ TITLE HERE***</a>
+      <div class="content">
+        <p>***FAQ ANSWER HERE***</p>
+      </div>
+    </div>
+<div class="accordion-item"> <!-- Note how this does not line up with the previous <div class="accordion-item> -->
+      <a>***FAQ TITLE HERE***</a>
+      <div class="content">
+        <p>***FAQ ANSWER HERE***</p>
+      </div>
+    </div>
+
+<!-- THIS IS CORRECT -->
+    <div class="accordion-item">
+      <a>***FAQ TITLE HERE***</a>
+      <div class="content">
+        <p>***FAQ ANSWER HERE***</p>
+      </div>
+    </div>
+    <div class="accordion-item"> <!-- Note how this DOES line up with the previous <div class="accordion-item> -->
+      <a>***FAQ TITLE HERE***</a>
+      <div class="content">
+        <p>***FAQ ANSWER HERE***</p>
+      </div>
+    </div>
